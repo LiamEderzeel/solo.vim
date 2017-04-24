@@ -9,6 +9,6 @@ colorschemes:
     background: 'dark'
     palette: solo
 airline:
-  - name: 'solo-airline'
+  - name: 'solo'
     palette: 'solo'
     style: 'solo'
