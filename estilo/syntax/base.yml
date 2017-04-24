@@ -1,0 +1,82 @@
+# BASE UI
+ColorColumn: '- dark-gray'
+Conceal: 'dark-gray'
+Cursor: 'white'
+CursorIM: 'red'
+CursorColumn: 'light-gray medium-gray'
+CursorLine: '- dark-gray'
+CursorLineNr: 'light-gray dark-gray'
+Directory: 'red'
+DiffAdd: 'green'
+DiffChange: 'light-orange'
+DiffDelete: 'red'
+DiffText: 'yellow'
+ErrorMsg: ''
+VertSplit: 'dark-gray'
+Folded: 'gray medium-gray'
+FoldColumn: ''
+SignColumn: ''
+IncSearch: 'gray'
+LineNr: 'medium-gray'
+MatchParen: 'gray'
+ModeMsg: ''
+MoreMsg: ''
+NonText: 'medium-gray'
+Normal: '- very-dark-gray'
+PMenu: 'very-light-gray dark-gray'
+PMenuSel: 'dark-gray very-light-gray'
+PmenuSbar: '- dark-gray'
+PmenuThumb: '- medium-gray'
+Question: ''
+Search: 'very-dark-gray light-orange'
+SpecialKey: ''
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: ''
+StatusLineNC: ''
+TabLine: ''
+TabLineFill: 'red'
+TabLineSel: ''
+Title: 'aqua'
+Visual: '- medium-gray'
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: ''
+# BASE SYNTAX
+Comment: 'medium-gray'
+Constant: 'red'
+String: 'light-orange' # Constant
+Character: 'purple' # Constant
+Boolean: 'purple' # Constant
+Number: 'purple' # Constant
+Float: 'purple' # Constant
+Identifier: 'green'
+Function: 'green' # Identifier
+Statement: 'orange'
+Conditional: 'red' # Statement
+Repeat: 'cyan' # Statement
+Label: 'aqua' # Statement
+Operator: 'red' # Statement
+Keyword: 'blue' # Statement
+Exception: 'red' # Statement
+PreProc: 'purple' # A preprocessor, such as "#include" in C
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: 'pink'
+StorageClass: 'red' # Type
+Structure: 'red' # Type
+Typedef: '' # Type
+Special: ''
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: 'yellow' # Special
+Underlined: 'red'
+Ignore: ''
+Error: 'very-light-gray red'
+Todo: ''

@@ -1,0 +1,14 @@
+name: 'solo'
+version: '1.0.0'
+license: 'MIT'
+author: 'Liam Ederzeel'
+url: ''
+description: 'A dark and simple theme I made during my stay in Korea.'
+colorschemes:
+  - name: solo
+    background: 'dark'
+    palette: solo
+airline:
+  - name: 'solo-airline'
+    palette: 'solo'
+    style: 'solo'
