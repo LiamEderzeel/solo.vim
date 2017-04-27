@@ -1,10 +1,10 @@
 " ============================================================
 " solo
-"
+" 
 " URL:
 " Author: Liam Ederzeel
 " License: MIT
-" Last Change: 2017/04/24 23:26
+" Last Change: 2017/04/27 17:45
 " ============================================================
 
 let g:airline#themes#solo#palette = {}
@@ -24,7 +24,7 @@ let s:replace2 = [ "#ed3535", "#373b41", 203, 237 ]
 let s:replace3 = [ "#505050", "#282a2e", 239, 235 ]
 let g:airline#themes#solo#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
-let s:visual1 = [ "#373b41", "#ea6936", 237, 167 aI]
+let s:visual1 = [ "#373b41", "#ea6936", 237, 167 ]
 let s:visual2 = [ "#ea6936", "#373b41", 167, 237 ]
 let s:visual3 = [ "#505050", "#282a2e", 239, 235 ]
 let g:airline#themes#solo#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
