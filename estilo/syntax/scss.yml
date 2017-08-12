@@ -46,28 +46,28 @@ WarningMsg: ''
 WildMenu: ''
 # BASE SYNTAX
 Comment: 'medium-gray'
-Constant: 'blue'
+Constant: 'very-light-gray'
 String: 'light-orange' # Constant
 Character: 'red' # Constant
 Boolean: 'purple' # Constant
-Number: 'purple' # Constant
-Float: 'purple' # Constant
-Identifier: 'light-orange'
-Function: 'pink' # Identifier
+Number: 'orange' # Constant
+Float: 'orange' # Constant
+Identifier: 'orange'
+Function: 'very-light-gray' # Identifier
 Statement: 'orange'
 Conditional: 'red' # Statement
 Repeat: 'cyan' # Statement
 Label: 'aqua' # Statement
 Operator: 'red' # Statement
-Keyword: 'blue' # Statement
+Keyword: 'test' # Statement
 Exception: 'red' # Statement
-PreProc: 'purple' # A preprocessor, such as "#include" in C
+PreProc: 'red' # A preprocessor, such as "#include" in C
 Include: '' # PreProc
 Define: '' # PreProc
 Macro: '' # PreProc
 PreCondit: '' # PreProc
 Type: 'pink'
-StorageClass: 'red' # Type
+StorageClass: 'very-light-gray' # Type
 Structure: 'red' # Type
 Typedef: '' # Type
 Special: ''
