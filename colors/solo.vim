@@ -4,7 +4,7 @@
 " URL: 
 " Author: Liam Ederzeel
 " License: MIT
-" Last Change: 2017/04/27 17:45
+" Last Change: 2017/08/12 23:09
 " ===============================================================
 
 set background=dark
@@ -42,14 +42,14 @@ hi TabLineFill guifg=#ed3535 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi Title guifg=#59d3bc ctermfg=79 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#373b41 ctermbg=237 gui=NONE cterm=NONE
 hi Comment guifg=#373b41 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Constant guifg=#ed3535 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#7aa6da ctermfg=110 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#efc673 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Character guifg=#c397d8 ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Character guifg=#ed3535 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Boolean guifg=#c397d8 ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Number guifg=#c397d8 ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Float guifg=#c397d8 ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Identifier guifg=#51e569 ctermfg=77 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Function guifg=#51e569 ctermfg=77 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#efc673 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Function guifg=#d6517e ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#ea6936 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Conditional guifg=#ed3535 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Repeat guifg=#8abeb7 ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
