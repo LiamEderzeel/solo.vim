@@ -1,82 +1,134 @@
-# BASE UI
-ColorColumn: '- dark-gray'
-Conceal: 'dark-gray'
-Cursor: 'white'
-CursorIM: 'red'
-CursorColumn: 'light-gray medium-gray'
-CursorLine: '- dark-gray'
-CursorLineNr: 'light-gray dark-gray'
-Directory: 'red'
-DiffAdd: 'green'
-DiffChange: 'light-orange'
-DiffDelete: 'red'
-DiffText: 'yellow'
-ErrorMsg: ''
-VertSplit: 'dark-gray'
-Folded: 'gray medium-gray'
-FoldColumn: ''
-SignColumn: ''
-IncSearch: 'gray'
-LineNr: 'medium-gray'
-MatchParen: 'gray'
-ModeMsg: ''
-MoreMsg: ''
-NonText: 'medium-gray'
-Normal: '- very-dark-gray'
-PMenu: 'very-light-gray dark-gray'
-PMenuSel: 'dark-gray very-light-gray'
-PmenuSbar: '- dark-gray'
-PmenuThumb: '- medium-gray'
-Question: ''
-Search: 'very-dark-gray light-orange'
-SpecialKey: ''
-SpellBad: ''
-SpellLocal: ''
-SpellCap: ''
-SpellRare: ''
-StatusLine: ''
-StatusLineNC: ''
-TabLine: ''
-TabLineFill: 'red'
-TabLineSel: ''
-Title: 'aqua'
-Visual: '- medium-gray'
-VisualNOS: ''
-WarningMsg: ''
-WildMenu: ''
-# BASE SYNTAX
-Comment: 'medium-gray'
-Constant: 'very-light-gray'
-String: 'light-orange' # Constant
-Character: 'red' # Constant
-Boolean: 'purple' # Constant
-Number: 'orange' # Constant
-Float: 'orange' # Constant
-Identifier: 'orange'
-Function: 'very-light-gray' # Identifier
-Statement: 'orange'
-Conditional: 'red' # Statement
-Repeat: 'cyan' # Statement
-Label: 'aqua' # Statement
-Operator: 'red' # Statement
-Keyword: 'test' # Statement
-Exception: 'red' # Statement
-PreProc: 'red' # A preprocessor, such as "#include" in C
-Include: '' # PreProc
-Define: '' # PreProc
-Macro: '' # PreProc
-PreCondit: '' # PreProc
-Type: 'pink'
-StorageClass: 'very-light-gray' # Type
-Structure: 'red' # Type
-Typedef: '' # Type
-Special: ''
-SpecialChar: '' # Special
-Tag: '' # Special
-Delimiter: '' # Special
-SpecialComment: '' # Special
-Debug: 'yellow' # Special
-Underlined: 'red'
-Ignore: ''
-Error: 'very-light-gray red'
-Todo: ''
+# Character: 'red' # Constant
+# Number: 'orange' # Constant
+# Float: 'orange' # Constant
+# Identifier: 'orange'
+# Statement: 'orange'
+# Conditional: 'red' # Statement
+# Operator: 'red' # Statement
+# Exception: 'red' # Statement
+# PreProc: 'red' # A preprocessor, such as "#include" in C
+# Structure: 'red' # Type
+# Underlined: 'red'
+
+cssComment: '' # Comment
+cssVendor: '' # Comment
+cssHacks: '' # Comment
+cssTagName: 'orange' # Statement                            h1 footer body p
+cssDeprecated: '- red' # Error
+cssSelectorOp: '' # Special
+cssSelectorOp2: '' # Special
+cssAttrComma: 'very-light-gray' # Special
+cssAnimationProp: '' # cssProp
+cssBackgroundProp: '' # cssProp
+cssBorderProp: '' # cssProp
+cssBoxProp: '' # cssProp
+cssColorProp: '' # cssProp
+cssContentForPagedMediaProp: '' # cssProp
+cssDimensionProp: '' # cssProp
+cssFlexibleBoxProp: '' # cssProp
+cssFontProp: '' # cssProp
+cssGeneratedContentProp: '' # cssProp
+cssGridProp: '' # cssProp
+cssHyerlinkProp: '' # cssProp
+cssLineboxProp: '' # cssProp
+cssListProp: '' # cssProp
+cssMarqueeProp: '' # cssProp
+cssMultiColumnProp: '' # cssProp
+cssPagedMediaProp: '' # cssProp
+cssPositioningProp: '' # cssProp
+cssPrintProp: '' # cssProp
+cssRubyProp: '' # cssProp
+cssSpeechProp: '' # cssProp
+cssTableProp: '' # cssProp
+cssTextProp: '' # cssProp
+cssTransformProp: '' # cssProp
+cssTransitionProp: '' # cssProp
+cssUIProp: '' # cssProp
+cssIEUIProp: '' # cssProp
+cssAuralProp: '' # cssProp
+cssRenderProp: '' # cssProp
+cssMobileTextProp: '' # cssProp
+cssAnimationAttr: '' # cssAttr
+cssBackgroundAttr: '' # cssAttr
+cssBorderAttr: '' # cssAttr
+cssBoxAttr: '' # cssAttr
+cssContentForPagedMediaAttr: '' # cssAttr
+cssDimensionAttr: '' # cssAttr
+cssFlexibleBoxAttr: '' # cssAttr
+cssFontAttr: '' # cssAttr
+cssGeneratedContentAttr: '' # cssAttr
+cssGridAttr: '' # cssAttr
+cssHyerlinkAttr: '' # cssAttr
+cssLineboxAttr: '' # cssAttr
+cssListAttr: '' # cssAttr
+cssMarginAttr: '' # cssAttr
+cssMarqueeAttr: '' # cssAttr
+cssMultiColumnAttr: '' # cssAttr
+cssPaddingAttr: '' # cssAttr
+cssPagedMediaAttr: '' # cssAttr
+cssPositioningAttr: '' # cssAttr
+cssGradientAttr: '' # cssAttr
+cssPrintAttr: '' # cssAttr
+cssRubyAttr: '' # cssAttr
+cssSpeechAttr: '' # cssAttr
+cssTableAttr: '' # cssAttr
+cssTextAttr: '' # cssAttr
+cssTransformAttr: '' # cssAttr
+cssTransitionAttr: '' # cssAttr
+cssUIAttr: '' # cssAttr
+cssIEUIAttr: '' # cssAttr
+cssAuralAttr: '' # cssAttr
+cssRenderAttr: '' # cssAttr
+cssCommonAttr: '' # cssAttr
+cssPseudoClassId: 'test3' # PreProc
+cssPseudoClassLang: '' # Constant
+cssValueLength: '' # Number
+cssValueInteger: '' # Number
+cssValueNumber: 'orange' # Number                        Number valus
+cssValueAngle: '' # Number
+cssValueTime: '' # Number
+cssValueFrequency: 'test' # Number
+cssFunction: '' # Constant
+cssURL: '' # String
+cssFunctionName: 'pink' # Function
+cssFunctionComma: '' # Function
+cssColor: 'test' # Constant
+cssIdentifier: 'test2' # Function
+cssInclude: 'red' # Include
+cssIncludeKeyword: 'red' # atKeyword
+cssImportant: '' # Special
+cssBraces: 'very-light-gray' # Function
+cssBraceError: '' # Error
+cssError: '' # Error
+cssUnicodeEscape: '' # Special
+cssStringQQ: 'light-orange' # String
+cssStringQ: '' # String
+cssAttributeSelector: '' # String
+cssMedia: '' # atKeyword
+cssMediaType: 'orange-honey' # Special                  screen, print
+cssMediaComma: '' # Normal
+cssMediaKeyword: 'orange' # Statement                   and
+cssMediaProp: '' # cssProp                              min-width in media quary
+cssMediaAttr: '' # cssAttr
+cssPage: '' # atKeyword
+cssPagePseudo: '' # PreProc
+cssPageMargin: '' # atKeyword
+cssPageProp: '' # cssProp
+cssKeyFrame: '' # atKeyword
+cssKeyFrameSelector: '' # Constant
+cssFontDescriptor: '' # Special
+cssFontDescriptorFunction: '' # Constant
+cssFontDescriptorProp: '' # cssProp
+cssFontDescriptorAttr: '' # cssAttr
+cssUnicodeRange: '' # Constant
+cssClassName: '' # Function
+cssClassNameDot: '' # Function
+cssProp: 'very-light-gray' # StorageClass               color, margin, border, width
+cssAttr: 'very-light-gray' # Constant                   auto, italic, grid, none
+cssUnitDecorators: 'orange' # Number                    px, em, rem, %
+cssNoise: '' # Noise
+atKeyword: '' # PreProc
+
+scssSelectorChar: 'very-light-gray' #                   the . in front of classes
+scssSelectorName: 'red' #                               class name
+scssAmpersand: 'very-light-gray' #                      the & in nesting

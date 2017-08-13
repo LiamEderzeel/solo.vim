@@ -7,6 +7,9 @@ very-dark-gray: '#1d1f21'
 
 red: '#ed3535'
 orange: '#ea6936'
+# orange-honey: '#eaa924'
+orange-honey: '#eb9e25'
+
 light-orange: '#efc673'
 # @light-orange: '#efd88e'
 yellow: '#ede2be'
@@ -19,3 +22,5 @@ pink: '#d6517e'
 gray: '#bebebe'
 
 test: '#ff00ff'
+test2: '#00ff00'
+test3: '#ff00ff'

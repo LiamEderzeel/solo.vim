@@ -1,0 +1,54 @@
+htmlTag: 'medium-gray' # Function
+htmlEndTag: 'medium-gray' # Identifier
+htmlArg: 'blue' # Type
+htmlTagName: 'red' # htmlStatement
+htmlSpecialTagName: 'light-orange' # Exception
+htmlValue: 'very-light-gray' # String
+htmlH1: '' # Title
+htmlH2: '' # htmlH1
+htmlH3: '' # htmlH2
+htmlH4: '' # htmlH3
+htmlH5: '' # htmlH4
+htmlH6: '' # htmlH5
+htmlHead: 'green' # PreProc
+htmlTitle: 'pink' # Title
+htmlBoldItalicUnderline: 'white' # htmlBoldUnderlineItalic
+htmlUnderlineBold: 'white' # htmlBoldUnderline
+htmlUnderlineItalicBold: 'white' # htmlBoldUnderlineItalic
+htmlUnderlineBoldItalic: 'white' # htmlBoldUnderlineItalic
+htmlItalicUnderline: 'white' # htmlUnderlineItalic
+htmlItalicBold: 'white' # htmlBoldItalic
+htmlItalicBoldUnderline: 'white' # htmlBoldUnderlineItalic
+htmlItalicUnderlineBold: 'white' # htmlBoldUnderlineItalic
+htmlLink: 'green' # Underlined
+htmlLeadingSpace: '' # None
+htmlPreStmt: 'test' # PreProc
+htmlPreError: 'test2' # Error
+htmlPreProc: 'test2' # PreProc
+htmlPreAttr: 'cyan' # String
+htmlPreProcAttrName: 'test2' # PreProc
+htmlPreProcAttrError: 'test2' # Error
+htmlSpecial: 'test2' # Special
+htmlSpecialChar: 'light-orange' # Special
+htmlString: 'cyan' # String
+htmlStatement: 'test2' # Statement
+htmlComment: 'medium-gray' # Comment
+htmlCommentPart: 'test2' # Comment
+htmlCommentError: 'test2' # htmlError
+htmlTagError: 'test2' # htmlError
+htmlEvent: 'test2' # javaScript
+htmlError: '- red' # Error
+javaScript: '' # Special
+javaScriptExpression: '' # javaScript
+htmlCssStyleComment: '' # Comment
+htmlCssDefinition: 'green' # Specialodo: ''
+
+
+# Constant: 'test2'
+# Conditional: 'test2' # Statement
+# Operator: 'test2' # Statement
+# Exception: 'test2' # Statement
+# StorageClass: 'test2' # Type
+# Structure: 'test2' # Type
+# Underlined: 'test2'
+# Constant: 'test2'
