@@ -4,7 +4,7 @@
 " URL:
 " Author: Liam Ederzeel
 " License: MIT
-" Last Change: 2017/08/13 02:39
+" Last Change: 2017/08/13 02:42
 " ============================================================
 
 let g:airline#themes#solo#palette = {}

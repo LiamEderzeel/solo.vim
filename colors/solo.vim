@@ -4,7 +4,7 @@
 " URL: 
 " Author: Liam Ederzeel
 " License: MIT
-" Last Change: 2017/08/13 02:39
+" Last Change: 2017/08/13 02:42
 " ===============================================================
 
 set background=dark
@@ -116,9 +116,9 @@ hi cssMediaKeyword guifg=#ea6936 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE ct
 hi cssProp guifg=#d8d8d8 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAttr guifg=#d8d8d8 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssUnitDecorators guifg=#ea6936 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssSelectorChar guifg=#d8d8d8 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssSelectorName guifg=#ed3535 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssAmpersand guifg=#d8d8d8 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi scssSelectorChar guifg=#d8d8d8 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi scssSelectorName guifg=#ed3535 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi scssAmpersand guifg=#d8d8d8 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
 " ===================================
